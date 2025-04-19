@@ -13,15 +13,21 @@ Script de automação para criação rápida de ambientes WordPress usando Docke
 ## Requisitos
 
 - Docker
-- Docker Compose
+- Docker Compose V2 (comando `docker compose` sem hífen)
 - curl
 - jq
+
+## Sobre o Docker Compose
+
+Este script utiliza a versão mais recente do Docker Compose (V2), que usa o comando `docker compose` (sem hífen) em vez do antigo `docker-compose` (com hífen). O Docker Compose V2 foi integrado diretamente à CLI do Docker e é a versão recomendada para uso.
+
+Se você ainda estiver usando a versão mais antiga (V1) com o comando `docker-compose`, será necessário atualizar para a versão mais recente do Docker ou modificar o script.
 
 ## Como usar
 
 1. Baixe o script
-2. Dê permissão de execução: `chmod +x setup-wp.sh`
-3. Execute: `./setup-wp.sh`
+2. Dê permissão de execução: `chmod +x setup-wordpress.sh`
+3. Execute: `./setup-wordpress.sh`
 4. Siga as instruções interativas
 
 ## Configurações
