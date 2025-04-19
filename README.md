@@ -62,6 +62,12 @@ O ambiente criado é ideal para desenvolvimento e testes, permitindo que você t
 
 Note que este script usa senhas padrão para o banco de dados em ambiente de desenvolvimento. Para uso em produção, recomenda-se modificar as senhas no arquivo docker-compose.yml gerado.
 
+## Autor
+
+**Léo Felipe**
+
+Criou este script para simplificar a configuração de ambientes WordPress durante seus projetos.
+
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
